@@ -1,5 +1,4 @@
 .container {
-    /* padding: 1rem; */
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -16,7 +15,6 @@
 }
 
 .imgContainer {
-    /* margin: 0.5rem 0;     */
     position: relative;
     height: 400px;
     width: 270px;
@@ -26,7 +24,6 @@
 
 .details {
     padding: 1rem 0.5rem;
-    /* height: 200px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;

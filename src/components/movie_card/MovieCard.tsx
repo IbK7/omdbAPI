@@ -40,9 +40,6 @@ const MovieCard:React.FC<IProps> = ({title, year, poster, type, imdbID}) => {
             <div className={styles.details}>
                 <h4>{title} ({ year }) </h4>
             </div>
-            {/* <div className={styles.ratings}>
-                <p>adsovnasdjkvnas</p>
-            </div> */}
         </div>
     )
 }

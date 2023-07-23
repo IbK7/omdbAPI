@@ -17,11 +17,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.poster {
-    /* overflow: hidden; */
-    /* height: 40vh;
-    width: auto; */
-}
 
 .imgContainer {
     position: relative;
@@ -38,14 +33,6 @@
     justify-content: space-around;
     align-items: flex-start;
 }
-/* 
-.ratings {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-} */
-
 
 .credits {
     height: 30vh;

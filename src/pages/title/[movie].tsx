@@ -7,9 +7,8 @@ import Error from "next/error";
 import styles from "@/styles/Movie.module.css"
 import Image from "next/image";
 
-
+// function to statically pre build the pages
 export const getStaticPaths: GetStaticPaths = async () => {
-    
     return {
       paths: [
         {params: {
@@ -30,8 +29,6 @@ export const getStaticProps: GetStaticProps<{movie: MovieData}> = async (context
 
 export default function Movie({movie} : InferGetStaticPropsType<typeof getStaticProps>) {
     if (movie.Response === "False") return <Error statusCode={404} />
-    
-
 
     return (
         <div className={styles.main}>
@@ -43,8 +40,6 @@ export default function Movie({movie} : InferGetStaticPropsType<typeof getStatic
                             alt = {movie.Title} 
                             fill={true}
                             style={{objectFit: "contain"}}
-                            // quality={100}
-                            // width={100}
                         />
                     </div>
                 
