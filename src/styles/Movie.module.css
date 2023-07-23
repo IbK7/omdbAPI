@@ -1,0 +1,60 @@
+.main {
+    margin-top: 3rem;
+    width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dadedf;
+}
+ 
+.movie {
+    width: 80vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.poster {
+    /* overflow: hidden; */
+    /* height: 40vh;
+    width: auto; */
+}
+
+.imgContainer {
+    position: relative;
+    height: 50vh;
+    width: 20vw;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.details {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+/* 
+.ratings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+} */
+
+
+.credits {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.plot {
+    margin-top: 2rem;
+    width: 80vw;
+}
